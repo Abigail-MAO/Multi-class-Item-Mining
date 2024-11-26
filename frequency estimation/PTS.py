@@ -84,8 +84,7 @@ def first_partition(para):
     chunk_size = len(data)//feature_domain
     data_partitions = [data[i:i+chunk_size] for i in range(0, len(data), chunk_size)]
     label_partitions = [label[i:i+chunk_size] for i in range(0, len(label), chunk_size)]
-    # utilize each partition to find the best partition for corresponding feature
-    # perturb the feature value first, if the feature change, the data is invalid, so the label is meaningless
+    
     rmse = 0
     domain_amount = 0
 
