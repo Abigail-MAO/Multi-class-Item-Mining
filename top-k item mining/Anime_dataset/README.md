@@ -1,0 +1,1 @@
+1. Please download the dataset at https://www.kaggle.com/datasets/azathoth42/myanimelist
