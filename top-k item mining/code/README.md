@@ -1,4 +1,4 @@
-1. Please first generate the JD and Anime datasets
+1. Please generate the JD and Anime datasets first
 2. Install Python 3 modules:
     numpy, math, gc, os, multiprocessing, collections, sys, copy
 3. Execute the code:
